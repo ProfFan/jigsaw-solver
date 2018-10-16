@@ -99,6 +99,7 @@ public:
         printf("Enter The Value of N in NxN : \n");
         height = img->height;
         width = img->width;
+        cout << img->height <<endl;
         scanf("%d",&N);
         X=N*N;
         initializeVector(X);

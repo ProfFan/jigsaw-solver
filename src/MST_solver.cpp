@@ -75,7 +75,7 @@ vector<Block> MST::get_mst(int height,int width)
 
 	for(int i=0;i<X;i++) used[i]=0;
 	vector<pii> cood;
-	set<pii> S;
+	std::set<pii> S;
 	for(int i=0;i<X;i++) cood.pb(make_pair(INF,INF));
 
 	ans.pb(pieces->block[ind]);

@@ -55,6 +55,7 @@ void saveResult(vector<Block> &ans,int height,int width,const string output)
             }
         }
     }
+    cvShowImage("NAME", final);
     cvSaveImage(output.c_str(),final);
 }
 

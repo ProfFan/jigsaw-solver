@@ -14,6 +14,7 @@
 #include <sstream>
 #include <fstream>
 #include <cmath>
+#include <set>
 #include "image.hpp"
 
 using namespace std;
